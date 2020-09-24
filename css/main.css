@@ -76,6 +76,7 @@ h2 {
 .button {
   border: none;
   color: black;
+  background-color: white;
   text-align: center;
   font-weight: bold;
   padding: 10px;
