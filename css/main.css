@@ -901,10 +901,10 @@ legend {
   background-position: center center;
   padding: 15px;
 
-background-image: url('/home/pasoneto/Downloads/archvix/images/cg.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center; 
+  background-image: url('images/cg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   
 }
 
