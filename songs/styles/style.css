@@ -63,7 +63,8 @@ hgroup,
 main,
 nav,
 section {
-	display: block
+	display: block;
+	color: #dc3545
 }
 
 body {
@@ -74,7 +75,8 @@ body {
 	line-height: 1.5;
 	color: #212529;
 	text-align: center;
-	background-color: #fff
+	background-color: #fff;
+	background-image: url('../../images/bridge.jpg');
 }
 
 [tabindex="-1"]:focus {
@@ -96,6 +98,8 @@ h6 {
 	margin-top: 0;
 	margin-bottom: .5rem;
 }
+
+
 
 p {
 	margin-top: 0;
@@ -174,14 +178,15 @@ sup {
 }
 
 a {
-	color: #007bff;
+	color: #ff58e9;
 	text-decoration: none;
 	background-color: transparent;
-	-webkit-text-decoration-skip: objects
+	-webkit-text-decoration-skip: objects;
+	text-shadow: 0px -1px 5px rgba(0,0,0,0.9);
 }
 
 a:hover {
-	color: #0056b3;
+	color: #ff58e9;
 	text-decoration: underline
 }
 
@@ -612,7 +617,7 @@ pre code {
 
 @media (min-width:1200px) {
 	.container {
-		max-width: 1140px
+		max-width: 1700px
 	}
 }
 
@@ -4743,12 +4748,12 @@ input[type=submit].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-	color: #fff
+	color: #ff58e9
 }
 
 .navbar-dark .navbar-text a:focus,
 .navbar-dark .navbar-text a:hover {
-	color: #fff
+	color: #ff58e9
 }
 
 .card {
@@ -10265,7 +10270,7 @@ a.text-dark:hover {
 
 .mfp-close,
 .mfp-preloader a:hover {
-	color: #FFF
+	color: #ff58e9
 }
 
 .mfp-s-error .mfp-content,
@@ -10593,6 +10598,7 @@ body {
 	font-size: 16px;
 	font-weight: 400px;
 	line-height: 1.5;
+	color: #dc3545;
 }
 
 /* Reset style */
@@ -10607,6 +10613,7 @@ a:active,
 a:focus {
 	text-decoration: none;
 	outline: 0;
+	color: #ff58e9"
 }
 
 ul,
@@ -10750,7 +10757,7 @@ body.menu-active #Header .logo {
 }
 
 #Header .mobile-menu ul li a:hover {
-	color: #19af83;
+	color: #ff58e9
 }
 
 #HeroBanner {
@@ -10885,12 +10892,14 @@ body.menu-active #Header .logo {
 #Laptop .laptop-text a:hover {
 	transition: all 0.25s ease 0s;
 	background-color: #fff;
-	color: #19af83;
+	color: #ff58e9;
 }
 
 #Gain {
 	padding: 45px 0;
+	color: #dc3545;
 }
+
 
 #Gain .title {
 	width: 70%;
@@ -10910,12 +10919,14 @@ body.menu-active #Header .logo {
 	margin: 0 0 30px;
 }
 
+
 #Gain .each-icon {
-	background-color: #292828;
+	background-color: #0026fc;
 	min-height: 350px;
 	text-align: center;
 	cursor: pointer;
 	position: relative;
+	box-shadow: 0px 1px 5px 3px rgba(0,0,0,1);
 }
 
 #Gain .each-icon .icon-wrap {
@@ -10949,6 +10960,7 @@ body.menu-active #Header .logo {
 	color: #fff;
 	margin: 0 0 15px;
 	font: 700 20px/115% 'Open Sans', sans-serif;
+	color: #ff58e9;
 }
 
 #Gain .each-icon .icon-text p {
@@ -10974,10 +10986,11 @@ body.menu-active #Header .logo {
 	opacity: 1;
 	left: 0;
 	transition: all 0.3s;
+	color: #ff58e9
 }
 
 #Gain .each-icon .icon-text .cta a:hover i {
-	color: #006f65;
+	color: #ff58e9;
 }
 
 #Gain .each-icon:hover .icon-wrap {
@@ -10990,6 +11003,7 @@ body.menu-active #Header .logo {
 	visibility: visible;
 	opacity: 1;
 	transition: all 0.5s;
+	color: #ff58e9
 }
 
 #Video {
@@ -11136,7 +11150,7 @@ body.menu-active #Header .logo {
 
 #OurWork .filter-box .each-box-text h3 {
 	font: 500 26px/115% 'Open Sans', sans-serif;
-	color: #fff;
+	color: #ff58e9;
 	margin: 0 0 30px;
 }
 
@@ -11163,7 +11177,7 @@ body.menu-active #Header .logo {
 }
 
 #OurWork .filter-box .each-box .each-box-text a:hover i {
-	color: #19af83;
+	color: #ff58e9
 }
 
 #OurWork .filter-box .each-box:hover .each-box-text a i {
@@ -11177,6 +11191,7 @@ body.menu-active #Header .logo {
 #OurWork .filter-box .each-box-text a:hover {
 	-webkit-transition: .2s all;
 	transition: .2s all;
+	color: #ff58e9
 }
 
 /*ContactUs style begin*/
@@ -11259,7 +11274,7 @@ body.menu-active #Header .logo {
 }
 
 #ContactUs .c-detail a:hover {
-	color: #19af83;
+	color: #ff58e9
 }
 
 #ContactUs .form-wrap {
@@ -11360,7 +11375,7 @@ body.menu-active #Header .logo {
 #Footer .footer-text p {
 	font: 400 16px/155% 'Open Sans', sans-serif;
 	color: #fff;
-	margin: 0 0 30px;
+	margin: 0 0 0px;
 }
 
 #Footer .footer-text p.designed {
@@ -11374,7 +11389,7 @@ body.menu-active #Header .logo {
 }
 
 #Footer .footer-text p.designed a:hover {
-	color: #29e4ad;
+	color: #ff58e9
 }
 
 #Footer .footer-text .email-box {
@@ -11449,7 +11464,7 @@ body.menu-active #Header .logo {
 }
 
 .social-share ul li a:hover i {
-	color: #19af83;
+	color: #ff58e9
 }
 
 #Footer .footer-text .copy-right p {
@@ -11459,4 +11474,6 @@ body.menu-active #Header .logo {
 	text-align: left;
 }
 
+
 /*Footer style end*/
+
