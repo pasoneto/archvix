@@ -902,7 +902,7 @@ legend {
   background-position: center center;
   padding: 15px;
 
-  background-image: url('https://raw.githubusercontent.com/pasoneto/archvix/master/images/cg.jpg');
+  background-image: url('../images/cg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
