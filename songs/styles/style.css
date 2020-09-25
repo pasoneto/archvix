@@ -10921,7 +10921,7 @@ body.menu-active #Header .logo {
 
 
 #Gain .each-icon {
-	background-color: #0026fc;
+	background-color: #121212;
 	min-height: 350px;
 	text-align: center;
 	cursor: pointer;
@@ -11477,3 +11477,7 @@ body.menu-active #Header .logo {
 
 /*Footer style end*/
 
+mark {
+	background-color: #121212;
+	color: #BB86FC;
+}
