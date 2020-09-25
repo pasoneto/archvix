@@ -91,15 +91,19 @@ hr {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
 	margin-top: 0;
 	margin-bottom: .5rem;
+	text-align: center;
+	margin-left: 7%;
 }
 
-
+h3 a {
+		font-size: 0.5em;
+		margin-bottom: 0;
+	}
 
 p {
 	margin-top: 0;
@@ -11481,3 +11485,58 @@ mark {
 	background-color: #121212;
 	color: #BB86FC;
 }
+
+
+/* IFRAME */
+
+iframe {
+    background-color: white;
+}
+
+/* IFRAME */
+
+/* TABLE */
+
+.tg {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:30px auto;
+}
+.tg td {
+	border-color:black;
+	background-color: #3f3d3d;
+	color: #BB86FC;
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg th { 
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial, sans-serif;
+	font-size:15px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg .tg-0lax {
+	text-align:left;
+	vertical-align:top
+}
+
+@media screen and (max-width: 767px) {
+	.tg {width: auto !important;}
+	.tg col {width: auto !important;}
+	.tg-wrap {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		margin: auto 0px;}
+	}
+
+/* TABLE */
