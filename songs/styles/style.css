@@ -11552,8 +11552,8 @@ iframe {
 	background-color: #121212;
 	color: #BB86FC;
 	align-items: right;
-	border-radius: 60%;
-	font-size: 2em;
+	border-radius: 10%;
+	font-size: 1em;
   }
   
 .next {
