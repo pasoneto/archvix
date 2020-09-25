@@ -97,12 +97,12 @@ h6 {
 	margin-top: 0;
 	margin-bottom: .5rem;
 	text-align: center;
-	margin-left: 7%;
 }
 
 h3 a {
 		font-size: 0.5em;
 		margin-bottom: 0;
+		text-align: left;
 	}
 
 p {
@@ -11487,6 +11487,7 @@ mark {
 }
 
 
+
 /* IFRAME */
 
 iframe {
@@ -11513,6 +11514,7 @@ iframe {
 	overflow:hidden;
 	padding:10px 5px;
 	word-break:normal;
+	box-shadow: 2 3px 10px 1px rgba(0, 0, 0, 0.9);
 }
 .tg th { 
 	border-color:black;
@@ -11522,12 +11524,14 @@ iframe {
 	font-size:15px;
 	overflow:hidden;
 	padding:10px 5px;
+	box-shadow: 2 3px 10px 1px rgba(0, 0, 0, 0.9);
 	word-break:normal;
 }
 
 .tg .tg-0lax {
 	text-align:left;
 	vertical-align:top
+	box-shadow: 2 3px 10px 1px rgba(0, 0, 0, 0.9);
 }
 
 @media screen and (max-width: 767px) {
@@ -11540,3 +11544,23 @@ iframe {
 	}
 
 /* TABLE */
+
+
+/* PREVIOUS NEXT BUTTON */
+
+.previous {
+	background-color: #121212;
+	color: #BB86FC;
+	align-items: right;
+	border-radius: 60%;
+	font-size: 2em;
+  }
+  
+.next {
+	background-color: #BB86FC;
+	color: #121212;
+	align-items: right;
+	border-radius: 60%;
+	font-size: 2em;
+
+  }
